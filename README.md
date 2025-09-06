@@ -1,101 +1,186 @@
-## Aim
+# EXP-3-PROMPT-ENGINEERING-
 
-To evaluate and compare the performance, user experience, and response quality of prompting tools across ChatGPT, Claude, Bard, Cohere Command, and Meta using a controlled use case: Summarizing a technical text.
+## Aim: 
+Evaluation of 2024 Prompting Tools Across Diverse AI Platforms: 
+ChatGPT, Claude, Bard, Cohere Command, and Meta
+Experiment:
+Within a specific use case (e.g., summarizing text, answering technical questions), compare the performance, user experience, and response quality of prompting tools across these different AI platforms.
 
-## Algorithm 
+## Algorithm:
 
-Select Use Case: Text summarization of a short technical paragraph.
+**Select Platforms**: ChatGPT (OpenAI), Claude (Anthropic), Bard (Google), Cohere Command-R, Meta Experiment (LLaMA-based).
 
-Design Common Prompt: Same instruction given to all AI systems.
+**Define Metrics**: Performance, User Experience, Response Quality (scored 1–10).
 
-Collect Outputs: Run the prompt in ChatGPT, Claude, Bard, Cohere Command, and Meta.
+**Choose Common Use Case**: Technical question answering.
 
-Evaluation Criteria:
+**Frame Single Prompt**: Same question asked to all models.
 
-Accuracy (faithful summary without losing core details)
+**Collect Outputs:** Summarize each tool’s style, content, and completeness.
 
-Clarity & Conciseness (how easy and short the summary is)
+**Score Outputs**: Rate using rubric (accuracy, clarity, depth, format).
 
-Coherence (logical and structured response)
+**Visualize Results:** Present scores in a colorful bar chart for comparison.
 
-User Experience (formatting, readability, extra helpfulness)
-
-Compare Results: Score each model from 1–5 on criteria.
-
-## Prompt (Used for All Platforms)
-
-"Summarize the following text in 3 bullet points, focusing only on the technical aspects:
-
-Text:
-“Artificial Intelligence (AI) models are increasingly being optimized for energy efficiency. One approach is quantization, which reduces the precision of model parameters to lower computational cost. Another method is knowledge distillation, where a smaller model learns from a larger one to achieve comparable accuracy with fewer resources.”
-
-## Outputs (Hypothetical 2024 Behavior)
-1. ChatGPT
-
-AI models are optimized for energy efficiency.
-
-Techniques include quantization (reducing parameter precision).
-
-Knowledge distillation transfers knowledge from large to small models.
-
-(Concise, structured, clear)
-
-2. Claude
-
-AI optimization focuses on reducing energy consumption.
-
-Quantization lowers computational cost by reducing parameter precision.
-
-Knowledge distillation lets smaller models mimic larger models while preserving accuracy.
-
-(Slightly more verbose, very clear)
-
-3. Bard
-
-Energy efficiency in AI is achieved through methods like quantization and knowledge distillation.
-
-Quantization minimizes computation by lowering model parameter precision.
-
-Knowledge distillation trains smaller models with guidance from larger ones, balancing efficiency and accuracy.
-
-(Balanced explanation, flows like natural text rather than pure bullets)
-
-4. Cohere Command
-
-AI models are being made energy-efficient.
-
-Quantization reduces precision for lower computational cost.
-
-Knowledge distillation helps smaller models achieve accuracy similar to larger models.
-
-(Direct, to the point, but less stylistic polish)
-
-5. Meta (LLaMA-based platform)
-
-AI energy efficiency efforts include:
-
-Quantization: lowers precision, reducing compute demand.
-
-Knowledge Distillation: smaller models trained from larger ones retain performance.
-
-(Good technical formatting, slightly more academic)
-
-## Result (Comparison Table)
-| Platform    | Accuracy (1–5) | Clarity (1–5) | Coherence (1–5) | User Experience (1–5) | **Total** |
-| ----------- | -------------- | ------------- | --------------- | --------------------- | --------- |
-| **ChatGPT** | 5              | 5             | 5               | 5                     | **20/20** |
-| **Claude**  | 5              | 4             | 5               | 4                     | **18/20** |
-| **Bard**    | 5              | 4             | 4               | 4                     | **17/20** |
-| **Cohere**  | 4              | 4             | 4               | 3                     | **15/20** |
-| **Meta**    | 5              | 4             | 5               | 4                     | **18/20** |
+## Prompt
+Generic Prompt for all platforms like Meta AI, Cohere Command, ChatGPT, Claude and Bard AI.
 
 
-✅ Conclusion:
+**Which domains are developing fastest in Electronics and Communication Engineering in 2025? Provide 6–8 domains, each with a one-line reason and a typical application.**
 
-ChatGPT delivered the most concise, accurate, and user-friendly output.
+## Output
 
-Claude and Meta gave strong technical clarity but slightly verbose.
+**META AI Output **
 
-Bard leaned toward natural, conversational style, sometimes less concise.
+Here are 6-8 fast-developing domains in Electronics and Communication Engineering in 2025, each with a one-line reason and a typical application:
+1. **Artificial Intelligence and Machine Learning Engineering**: Developing intelligent systems that can learn and adapt to new situations, enabling applications like predictive maintenance and autonomous vehicles.
 
-Cohere Command was accurate but less polished in readability.
+Typical Application: Autonomous driving systems
+
+
+2. **Cybersecurity Engineering**: Protecting IoT and cloud systems from increasing cyber threats with projected 32% job growth by 2030.
+
+Typical Application: Zero-trust architectures and AI-driven threat detection
+
+
+3. **Internet of Things (IoT)**: Enabling smart infrastructure and predictive maintenance with global investments expected to reach $1 trillion by 2025.
+
+Typical Application: Smart city infrastructure
+
+
+4. **5G and 6G Research:** Developing ultra-low latency and high-speed networks for applications like holographic communication and intelligent edge services.
+
+Typical Application: Remote healthcare and immersive technologies
+
+
+5.** Edge Computing and AI-Optimized Hardware:** Enabling real-time processing of AI tasks with minimal latency and cloud dependency.
+
+Typical Application: Real-time language translation on smartphones
+
+
+6. **Quantum Computing and Quantum Communication:** Developing secure communication systems resistant to future quantum computer-based attacks.
+
+Typical Application: Secure data transmission in finance and healthcare
+
+
+7. **Robotics and Automation Engineering:** Designing robots and automated systems for manufacturing, healthcare, and logistics with a projected market growth to $210 billion by 2025.
+
+Typical Application: Warehouse robots and surgical tools
+
+
+8. **Embedded Systems and VLSI Design:** Developing low-power microcontrollers and energy-efficient systems for applications like wearables and IoT devices.
+
+Typical Application: Smart home automation systems 
+
+**COHERE COMMAND Output**
+
+Here are the rapidly developing domains in Electronics and Communication Engineering projected for 2025:
+
+1. **5G and Next-Generation Mobile Networks**
+Enhanced mobile connectivity and higher data speeds are driving advancements in network infrastructure.
+Application: Real-time streaming in smart cities and telemedicine.
+
+2. **Artificial Intelligence in Telecommunications**
+AI-driven solutions streamline network management and improve user experiences through data analysis and automation.
+Application: Predictive maintenance in network systems.
+
+3. **Internet of Things (IoT)**
+The proliferation of interconnected devices requires robust communication frameworks for efficiency and scalability.
+Application: Smart agriculture systems monitoring crop conditions.
+
+4. **Quantum Communication**
+This emerging field promises ultra-secure data transmission using quantum mechanics principles, challenging traditional encryption methods.
+Application: Secure financial transactions and communications.
+
+5. **Edge Computing**
+Processing data closer to its source helps reduce latency, meeting the demands of real-time applications in various sectors.
+Application: Smart industrial automation and remote healthcare monitoring.
+
+6. **Wearable Electronics**
+Advances in miniaturization and wireless communication boost the functionality and market presence of wearables.
+Application: Health-tracking devices and fitness monitors.
+
+7. **Satellite Communication**
+Improved satellite technology expands global internet coverage and provides high-speed data transmission to rural areas.
+Application: Internet services in remote locations and disaster recovery.
+
+8. **Blockchain Technology in Communication**
+Blockchain ensures data security and integrity in communication by providing decentralized ledger systems.
+Application: Secure messaging and verification systems in enterprise environments.
+
+**CLAUDE AI Output**
+
+Based on current industry developments, here are the fastest-developing domains in Electronics and Communication Engineering for 2025:
+
+1. **6G Wireless Technology** — Advancing beyond 5G with ultra-low latency and massive connectivity requirements | Autonomous vehicle networks and immersive AR/VR applications
+
+2. **AI-Integrated Communication Systems **— Incorporating machine learning for intelligent network optimization and predictive maintenance | Smart base stations with adaptive beamforming and self-healing networks
+
+3. **Quantum Communication** — Developing quantum-secured communication channels and quantum networking protocols | Quantum key distribution systems and quantum internet infrastructure
+
+4. **Edge Computing and IoT** — Enabling real-time processing at network edges to reduce latency and bandwidth usage | Industrial IoT sensors and autonomous manufacturing systems
+
+5. **Advanced Semiconductor Design **— Creating energy-efficient chips with higher performance density using novel materials | High-frequency RF components and neuromorphic processors
+   
+6. **Terahertz Communication** — Exploiting untapped high-frequency spectrum for ultra-high data rates | Next-generation wireless backhaul and satellite communication links
+
+7. **Digital Signal Processing for AI** — Optimizing DSP algorithms for machine learning acceleration in embedded systems | Real-time voice recognition and computer vision applications
+
+8. **Photonic Integrated Circuits** — Combining optical and electronic components for high-speed, low-power communication | Data center interconnects and optical computing systems
+
+**ChatGPT Output**
+
+Developing Domains in Electronics and Communication Engineering (2025)
+
+1. **6G and Terahertz (THz) Communication** — Pushes wireless speeds into the terabit range; applied in high-capacity backhaul and immersive AR/VR.
+
+2. **Edge AI and TinyML** — Brings intelligence closer to the device; applied in smart sensors for predictive maintenance.
+
+3. **Quantum Communication and QKD **— Ensures theoretically secure data exchange; applied in defense and financial networks.
+
+4. **Reconfigurable Intelligent Surfaces (RIS)** — Improves coverage and spectrum efficiency; applied in dense urban wireless systems.
+
+5. **AI-Driven Semiconductor Design** — Accelerates chip innovation with automated design flows; applied in energy-efficient processors.
+
+6. **Flexible and Printed Electronics** — Enables low-cost, lightweight circuits; applied in wearables and biomedical patches.
+
+7. **Joint Sensing and Communication (JSAC)** — Combines data transfer with environment perception; applied in autonomous vehicles and robotics.
+
+8. **Secure-by-Design IoT Systems** — Embeds cybersecurity at the hardware level; applied in healthcare monitoring and smart homes.
+
+**Bard AI Output**
+In 2025, several domains in Electronics and Communication Engineering are experiencing rapid growth driven by advancements in technology and increasing demand for intelligent, connected systems. Here are 6-8 of the fastest-developing domains.
+
+**1. 5G & 6G Communication Technologies 📶**
+This domain is developing quickly due to the global rollout of 5G networks and the accelerating research into next-generation 6G systems. A typical application is autonomous vehicles, which require ultra-low latency and high-speed data transfer for real-time decision-making.
+
+**2. Internet of Things (IoT) & Smart Systems 🏠**
+Growth in this area is fueled by the need to connect devices and collect data for automation and enhanced user experiences. An example of a typical application is a smart city, which uses interconnected sensors and devices to manage traffic, energy, and waste more efficiently,
+
+<img width="859" height="559" alt="image" src="https://github.com/user-attachments/assets/f8ce2e88-cbb0-4587-967d-4aec4c4c3f5c" />
+
+**3. Artificial Intelligence & Machine Learning for Embedded Systems 🤖**
+This field is advancing rapidly as AI and ML are integrated directly into hardware, enabling devices to process data locally and act autonomously. A typical application is predictive maintenance in industrial robots, where the system analyzes sensor data to schedule repairs before a breakdown occurs.
+
+
+**4. VLSI Design & Semiconductor Technology 🔬**
+This domain is experiencing rapid growth due to the global demand for more powerful and energy-efficient chips for everything from consumer electronics to data centers. A typical application is the development of high-performance graphics processing units (GPUs) for AI and gaming.
+
+**5. Quantum Communication & Computing ⚛️**
+This is a nascent but fast-developing field, as governments and companies invest heavily in using the principles of quantum mechanics for secure communication and faster computation. A typical application is quantum key distribution (QKD), which provides unbreakable encryption for highly sensitive data.
+
+
+**6. Biomedical Electronics 🩺**
+Driven by the integration of electronics and medicine, this domain is growing quickly to create more precise diagnostic and therapeutic tools. A typical application is a continuous glucose monitor, which uses electronic sensors to provide real-time blood sugar readings for diabetic patients.
+
+**7. Robotics & Autonomous Systems 🚗**
+This domain is advancing due to breakthroughs in AI and sensor fusion, enabling machines to perform complex tasks with minimal human intervention. A typical application is delivery drones, which autonomously navigate and transport packages to their destination.
+
+<img width="1182" height="677" alt="image" src="https://github.com/user-attachments/assets/107bd6b1-92d9-40c4-b97c-4cc095d1ed1e" />
+
+## Result
+
+<img width="737" height="395" alt="image" src="https://github.com/user-attachments/assets/a59cdddb-9f02-46d5-883c-2643727c47d9" />
+
+
+  Thus the evaluation of 2024 Prompting Tools Across Diverse AI Platforms was successfully compared and tested.
